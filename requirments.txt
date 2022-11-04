@@ -1,5 +1,4 @@
 ***libraries*** ( you need install before perform tests)
 selenium
 webdriver_manager
-test git uii
 
