@@ -8,7 +8,7 @@ class Login:
 
 #we set attribute in this class and we can use all functional and other thing than use from this class, we can use from this attribute
 
-    def enter_username (self, name):
+    def enter_name (self, name):
         self.driver.find_element ('id', self.name_textbox_id).send_keys(name)
 
     def enter_phonenumber (self,phonenumber):
