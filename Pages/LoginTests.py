@@ -3,6 +3,7 @@ from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 from time import sleep
 from login import Login
+from selenium.webdriver.common.by import By
 
 driver = webdriver.Chrome(executable_path=ChromeDriverManager().install())
 
@@ -18,5 +19,6 @@ driver.implicitly_wait(3)
 login_object.enter_name('Arman Abbasi')
 login_object.enter_phonenumber('09191112233')
 login_object.enter_message('سلام، این یک محتوای تستی هست')
+
 login_object.click_on_send_button()
 sleep(5)
