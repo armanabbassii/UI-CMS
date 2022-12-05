@@ -1,8 +1,7 @@
-
+from login import Login
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 from time import sleep
-from login import Login
 
 driver = webdriver.Chrome(executable_path=ChromeDriverManager().install())
 
