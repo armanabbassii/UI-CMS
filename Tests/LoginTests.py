@@ -1,4 +1,4 @@
-from login import Login
+from login import login
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 from time import sleep
