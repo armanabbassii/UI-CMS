@@ -24,14 +24,14 @@ class LoginTests(unittest.TestCase):
         sleep(5)
 
 
-    #def test_invalid_login (self):
-     #   self.driver.get('https://sandaly.ir/%d8%aa%d9%85%d8%a7%d8%b3-%d8%a8%d8%a7-%d9%85%d8%a7/')
-      #  login = Login (driver=self.driver)
-       # login.enter_name('siavash vaezi')
-        #login.enter_phonenumber('09008889966')
-        #login.enter_message('سلام، این تست دوم هست')
-       # login.click_on_send_button()
-        #sleep(5)
+    def test_invalid_login (self):
+        self.driver.get('https://sandaly.ir/%d8%aa%d9%85%d8%a7%d8%b3-%d8%a8%d8%a7-%d9%85%d8%a7/')
+        login = Login (driver=self.driver)
+        login.enter_name('siavash vaezi')
+        login.enter_phonenumber('09008889966')
+        login.enter_message('سلام، این تست دوم هست')
+        login.click_on_send_button()
+        sleep(5)
 
 
 
