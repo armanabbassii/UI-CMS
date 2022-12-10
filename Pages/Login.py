@@ -18,4 +18,4 @@ class Login:
         self.driver.find_element('id', message_textbox_id).send_keys(message)
 
     def click_on_send_button(self):
-        self.driver.find_element('class', send_button_class).click()
+        self.driver.find_element('xpath', send_button_class).click()
